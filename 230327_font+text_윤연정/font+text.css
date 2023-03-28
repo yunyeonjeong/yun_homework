@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+section{
+    background-color: aqua;
+}
+h1{
+    background-color: #ff594546;
+    color:white; 
+    font-size: 30px;
+    text-align: center;
+    font-family:'Courier', monospace, sans-serif; 
+}
+h2{
+    font-weight: bold;
+    color: grey;
+    font-size: 25px;
+    text-decoration: underline;
+    line-height: 1.6;
+    text-align: center;
+}
+
+h3{
+    background-color: orange;
+    font-weight: bold;
+    text-align: right;
+}
+
+#txt{
+    text-align:center;
+}
+
+a:link{
+    color: turquoise;
+}
+
+.box1{
+    text-align:center;
+    line-height: 2.0;
+}
+
+#txt1{
+    color: rgb(215, 82, 202);
+    text-align: center;
+}
+
+#txt2{
+    background-color:rgb(210, 41, 69);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#txt3{
+    line-height: 1.6;
+}
+
+#txt4{
+    line-height: 1.6;
+}
+
+#txt5{
+    line-height: 1.6;
+}
+
+.box2{
+    line-height: 1.6;
+}
+
+.box3{
+    line-height: 1.6;
+}
+
+.pink{
+    background-color: hotpink;
+    text-align: left;
+}
+
+#red{
+    color: red;
+}
