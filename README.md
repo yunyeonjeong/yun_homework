@@ -1,2 +1,1 @@
-# githomework
-과제
+목표 : 개근상
