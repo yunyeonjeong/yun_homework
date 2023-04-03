@@ -1,0 +1,75 @@
+<DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>테이블 스타일 연습2</title>
+    <style>
+        h1{
+            text-align: center;
+            margin: 50 auto;
+        }
+        table{
+            text-align: center;
+            margin: 50 auto;
+            border-collapse: collapse;
+        }
+        table th, td{
+            border: 1px solid black;
+            padding: 5px 20px;
+        }
+        table .bg{
+            background-color: darkgoldenrod;
+        }
+        table .bg1{
+            background-color: burlywood;
+        }
+        table .bgbg{
+            background-color: white;
+        }
+        table .bgbg1{
+            background-color: white;
+            border-bottom: none;
+        }
+        table .bgbg2{
+            background-color: white;
+            border-top: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>테이블 스타일 연습2</h1>
+    <table>
+        <caption>소</caption>
+        <tr class="bg">
+            <td>소머리</td>
+            <td>목심</td>
+            <td>등심<br>(살치살 <a href="#">꽃등심</a>)</td>
+            <td>채끝살</td>
+            <td>우둔<br>(홍두깨살)</td>
+        </tr>
+        <tr class="bg">
+            <td class = bgbg rowspan="4"></td>
+            <td rowspan="2">앞다리<br>(부채살)</td>
+            <td>갈비<br>(안창살 제비추리)</td>
+            <td>안심</td>
+            <td rowspan="2">설도<br>(도가니살)</td>
+        </tr>
+        <tr class="bg">
+            <td colspan="2">양지<br>(차돌박이 우삼겹)</td>
+        </tr>
+        <tr class="bg">
+            <td>사태</td>
+            <td class=bgbg1 colspan="2"></td>
+            <td>사태<br>(아롱사태)</td>
+        </tr>
+        <tr class="bg1"> 
+            <td>우족</td>
+            <td class=bgbg2 colspan="2"></td>
+            <td>우족</td>
+            
+        </tr>
+    </table>
+
+</body>
+</html>
