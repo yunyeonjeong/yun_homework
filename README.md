@@ -1,4 +1,4 @@
-<center>#목표 : 개근#</center> 
+#<center>목표 : 개근</center>#
 
 :question::question::question::question::question::question::question::question::question::question:
 
