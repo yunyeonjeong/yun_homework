@@ -1,6 +1,6 @@
-#<center>목표 : 개근</center>#
+#목표 : 개근#
 
-:question::question::question::question::question::question::question::question::question::question:
+:question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question:
 
 날짜 | 과제 이름 | 내용
 | :---:  |      :---:     | :---: |
