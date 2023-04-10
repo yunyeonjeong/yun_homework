@@ -1,9 +1,9 @@
-# 목표 : 개근 #
+<center># **목표 : 개근** #</center> 
 
+:EMOJICODE::EMOJICODE::EMOJICODE::EMOJICODE::EMOJICODE::EMOJICODE:
 
 날짜 | 과제 이름 | 내용
 | :---:  |      :---:     | :---: |
-|--------|----------------|	      |
 | 230327 | font+text      | -     |
 | 230329 | margin_padding | -     |
 | 230330 | display        | -     |
