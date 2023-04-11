@@ -1,4 +1,4 @@
-#목표 : 개근#
+#목표 : 개근
 
 :question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question:
 
