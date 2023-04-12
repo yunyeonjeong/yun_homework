@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <style>
+        form{
+            margin:0 auto;
+            overflow:hidden;
+        }
+        form fieldset{
+            border: 3px solid black;
+            border-radius: 20px;
+            width: 400px;
+            margin: 50px auto;
+            padding:20px;
+            text-align: center;
+        }
+        form input{
+            width:200px;
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 20px 20px 20px 150px;
+            margin: 10px auto;
+            background-color: darkseagreen;
+            font-size: 24px;
+        }
+        [required]:focus{
+            background-color: darkslateblue;
+        }
+        .name{
+            background-image: url(./images/p.jpeg);
+            background-repeat: no-repeat;
+            background-size: scale-down;
+            background-position: 0 50%;
+        }
+        .email{
+            background-image: url(./images/e.png);
+            background-repeat: no-repeat;
+            background-size: scale-down;
+            background-position: 0 50%;
+        }
+        .number{
+            background-image: url(./images/c.png);
+            background-repeat: no-repeat;
+            background-size: scale-down;
+            background-position: 0 50%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <input class="name" placeholder="이름을 입력하세요" required><br>
+            <input class="email" placeholder="이메일을 입력하세요" required><br>
+            <input class="number" placeholder="연락처를 입력하세요" required><br>
+        </fieldset>
+    </form>
+</body>
+</html>
