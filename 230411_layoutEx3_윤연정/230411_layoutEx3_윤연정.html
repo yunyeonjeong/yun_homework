@@ -1,0 +1,108 @@
+<DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>layoutEx3</title>
+    <style>
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear:both;
+            height: 0;
+            visibility: hidden;
+        }
+        body{
+            text-align: center;
+            width: 940px; height: 380px;
+            margin: 0 auto;
+        }
+        h1{
+            height: 100px;
+            line-height: 100px;
+            margin: 0;
+        }
+        menu{
+            padding-left: 0;
+            margin: 0;
+        }
+        .gnb {
+            background-color: #263A29;
+            list-style: none;
+            margin: 0;
+        }
+        .gnb li {
+            float: left;
+        }
+        .gnb li a {
+            color: #fff;
+            display: block;
+            height: 60px;
+            line-height: 60px;
+            padding: 0 60px;
+        }
+        .gnb li a:hover{
+            background-color: teal;
+            color: white
+        }
+        div{
+            clear: both;
+            background-color: blueviolet;
+            font-size: 28px;
+            height: 60px; 
+            line-height: 60px;
+            margin: 30px 0;
+        }
+        .container {
+            background-color: chartreuse;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        .container li {
+            float: left;
+        }
+        .container li a{
+            text-decoration: none;
+            color: #fff;
+            height: 60px;
+            padding: 0 60px;
+            display:block;
+            font-size: 22px;
+            margin: 0;
+            width: 940px; height: 33px;
+            line-height: 33px;
+        }
+        footer{
+            background-color: khaki;
+            font-size: 24px;
+            height: 80px;
+            line-height: 80px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <head>
+        <h1>로고</h1>
+    </head>
+    <menu>
+        <ul class="gnb clearfix">
+            <li><a href="#">홈</a></li>
+            <li><a href="#">상품</a></li>
+            <li><a href="#">소개</a></li>
+            <li><a href="#">서비스</a></li>
+            <li><a href="#">연락처</a></li>
+        </ul>
+    </menu>
+    <div>컨텐츠</div>
+    <main>
+    <ul class="container">
+        <li><a href="#">1번째 열</a></li>
+        <li><a href="#">2번째 열</a></li>
+        <li><a href="#">3번째 열</a></li>
+    </ul>
+    </main>
+    <footer>&#169;copyright 2022</footer>
+</body>
+</html>
