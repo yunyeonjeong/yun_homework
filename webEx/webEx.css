@@ -11,7 +11,8 @@ html{
   width: 1920px;
   height: 990px;
 
-  background-image: url(./images/나무.jpg);
+  background-image: url(./images/tree.png);
+  background-size: cover;
 }
 
 body{
@@ -128,7 +129,7 @@ aside.gnb{
   background-color: #f1faee;
   float: right;
   margin-top: -600px;
-  padding: 0 0 146px 0;
+  padding: 0 0 150px 0;
   border-left: 1px solid #e63946;
 }
 aside ol{
