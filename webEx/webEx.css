@@ -7,10 +7,6 @@
 }
 
 html{
-  margin: 0;
-  width: 1920px;
-  height: 990px;
-
   background-image: url(./images/tree.png);
   background-size: cover;
 }
@@ -18,8 +14,8 @@ html{
 body{
   font-family: 'NotoSansKorean', 'san-serif';
   width: 940px;
-  margin: 20px auto 156px;
   border: 4px solid #c8d5b9;
+  margin: 20px auto;
 }
 
 /* header 제목 */
