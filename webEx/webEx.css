@@ -141,6 +141,9 @@ aside ol{
   display: block;
   border-bottom: 1px #e63946 solid;
 } 
+.gnb .list a:hover{
+  color:  #e63946;
+}
 h4{
   text-indent: 20px;
   font-size: 34px;
