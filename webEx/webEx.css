@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+html{
+  margin: 0;
+  width: 1920px;
+  height: 990px;
+
+  background-image: url(./images/나무.jpg);
+}
+
+body{
+  font-family: 'NotoSansKorean', 'san-serif';
+  width: 940px;
+  margin: 20px auto 156px;
+  border: 4px solid #c8d5b9;
+}
+
+/* header 제목 */
+header{
+  background-color: #1d3557;
+  color: white;
+  color: faf3dd;
+  padding: 20px;
+  text-indent: 100px;
+  margin: 0 auto;
+
+  background-image: url(./images/라이카.png);
+  background-repeat: no-repeat;
+  background-position: 20px 14px;
+}
+h1{ 
+  margin: 0 auto;
+  font-size: 38px;
+  font-family: 'cookie', 'san-serif';
+}
+h2{
+  margin: 0 auto;
+  font-size: 26px;
+  font-family: 'Playfair Display', 'san-serif';
+}
+
+/* nav 메뉴 */
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  float: left;
+}
+nav.wrapper{
+  margin: auto;
+  background-color: #457b9d;
+  color: #1d3557;
+}
+.wrapper {
+  height: 40px;
+  line-height: 40px;
+  width: 940px;
+}
+.wrapper .gnb a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  display: block;
+  width: 80px;
+  padding: 0 5px;
+} 
+.wrapper .gnb a:hover {
+  background-color: #1d3557;
+  color: white;
+}
+
+/* article 이미지 섹션 */
+main{
+  background-color: #a8dadc;
+  overflow: hidden;
+}
+article{
+  overflow: hidden;
+  width: 700px;
+}
+img {
+  width: 300px;
+  float: left;
+  margin: 4px auto;
+}
+figure{
+  font-style: italic;
+  border: 1px solid #e63946;
+  background-color: #f1faee;
+  width: 300px;
+  float: left;
+  padding:0 5px;
+  margin: 30px 10px;
+}
+figcaption{
+  text-align: right;
+}
+.first{
+  width: 300px; height: 300px;
+  float: left;
+}
+.second{
+  width: 300px; height: 300px;
+  float: left;
+}
+h3{
+  font-size: 34px;
+  font-weight: bold;
+}
+.red{
+  font-size: 18px;
+  color: #e63946;
+  font-weight: bold;
+}
+
+/* aside */
+aside.gnb{
+  width: 260px;
+  background-color: #f1faee;
+  float: right;
+  margin-top: -600px;
+  padding: 0 0 146px 0;
+  border-left: 1px solid #e63946;
+}
+aside ol{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.gnb .list a {
+  text-indent: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  display: block;
+  border-bottom: 1px #e63946 solid;
+} 
+h4{
+  text-indent: 20px;
+  font-size: 34px;
+  color: #e63946;
+}
+.gnb p{
+  font-size: 20px;
+  text-indent: 20px;
+}
+
+/* footer */
+footer{
+  clear: both;
+  background-color: #1d3557;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+}
