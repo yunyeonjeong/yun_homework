@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>transEx4</title>
+    <style>
+        /* input:focus {텍스트 필드에 포커스가 잡히면} 
+        input:checked {체크박스에 체크가 되면}
+        input:disabled {비활성}
+        input{type=checkbox}:checked {} */
+
+        h3 { margin: 0; }
+        .container { background-color: tomato; padding: 20px 0 0; width: 400px; height: 400px; }
+        .box{ background-color: steelblue; width: 800px; height: 100px; }
+        input[type=checkbox]:checked ~ .box{ transition: all 0.7s; transform: translateY(-420px); width: 400px; height: 420px; }
+    </style>
+</head>
+<body>
+    <h1>trans 연습 4</h1>
+    <input type="checkbox" name="check" id="check">
+    <label for="check">체크 박스가 체크되면 박스가 위로 올라와 사라집니다.</label>
+    <div class="container">
+        <h3>:checked</h3>
+        <p>계절이 자나가는 하늘에는 가을로 가득 차 있읍니다.나는 아무 걱정도 없이가을 속의 별들을 다 헤일듯 합니다.가슴속에 하나 둘 새겨지는 별을이제 다 못헤는 것은쉬이 아침이 오는 까닭이오.아직 나의 청춘이 다하지 않는 까닭입니다.별 하나에 추억과 별 하나에 사랑과 별 하나에 쓸쓸함과 별 하나에 동경과 별 하나에 시</p>
+    </div>
+    <div class="box">block</div>
+</body>
+</html>
