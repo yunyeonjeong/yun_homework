@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body { width: 80vw; height: 90vh; margin: 40px 130px; display: flex;
+    flex-direction: column; background-color:lightyellow
+}
+section { display: flex; flex-wrap: nowrap; background-color:cadetblue; }
+
+main { display: flex; flex-wrap: nowrap; }
+
+a { text-decoration: none; color: inherit; border: 1px solid darkgray; border-radius: 40%; padding: 10px; margin-top: 20px; text-align: center; }
+
+h1 { font-size: 4rem; color:dimgrey; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+h2 { font-size: 2.5rem; color: dimgray; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   }
+
+p { font-size: 1rem; color: darkgray; }
+
+div { margin: 20px; }
+
+input[type=email] { background-color:lightyellow; outline: none; border: 1px  solid darkgray; padding: 10px; width: 300px; border-radius: 40%; }
+
+ul { list-style: none; margin: 0px; padding: 0; display: flex; }
+
+li { padding: 20px; }
+
