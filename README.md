@@ -16,3 +16,4 @@
 | 230418 | fluidLayout    |vh값과 width%값으로만 박스 만들기|
 | 230426 | transEx4       |transform, transition, 체크박스를 사용하여 체크박스를 체크하면 아래에서 위로 올라오는 박스 만들기/vw값으로 박스값을 주니 너무 커져서 px 값으로 박스크기 제어|
 | 230502 | flexWeb1       |flex값을 사용하여 예제 만들어보기|
+| 230508 | flexWeb2       |PanStar홈페이지 똑같이 만들어보기 똑같진 않음 hover 값이 인식 안됨. 이유 찾지 못함.|
