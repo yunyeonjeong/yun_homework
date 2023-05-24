@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+:root {
+  --color1: #fff;
+  --color2: #eee;
+  --color3: rgb(201, 214, 207);
+  --color4: rgba(0, 0, 0, 0.5);
+  --color5: #212529;
+  --color6: #222;
+  --color7: rgb(248, 249, 250);
+  --color8: #000;
+  --color9: #f7f7f7;
+  --color10: #rgba(0, 0, 0, 0.02);
+  --color11: #aaa;
+
+  --font-size14: 0.875rem;
+  --font-size15: 0.938rem;
+  --font-size16: 1rem;
+  --font-size17: 1.063rem;
+  --font-size20: 1.25rem;
+  --font-size24: 1.5rem;
+  --font-size34: 2.125rem;
+  --font-size37: 2.313rem;
+  --font-size50: 3.125rem;
+}
