@@ -12,14 +12,23 @@
   --color9: #f7f7f7;
   --color10: #rgba(0, 0, 0, 0.02);
   --color11: #aaa;
+  --color12: #444;
+  --color13: #69a9c5
 
   --font-size14: 0.875rem;
   --font-size15: 0.938rem;
   --font-size16: 1rem;
   --font-size17: 1.063rem;
+  --font-size18: 1.125rem;
+  --font-size17-6: 1.1rem;
   --font-size20: 1.25rem;
+  --font-size21: 1.313rem;
   --font-size24: 1.5rem;
+  --font-size28: 1.75rem;
+  --font-size32: 2rem;
   --font-size34: 2.125rem;
   --font-size37: 2.313rem;
   --font-size50: 3.125rem;
+  --font-size56: 3.5rem;
+  --font-size72: 4.5rem;
 }

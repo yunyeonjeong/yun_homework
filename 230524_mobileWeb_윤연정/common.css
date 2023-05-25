@@ -11,7 +11,7 @@
 h2 {
   font-family: "Montserrat", sans-serif;
   color: var(--color5);
-  font-size: var(--font-size34);
+  font-size: var(--font-size56);
   font-weight: 700;
   text-align: center;
 }
@@ -22,5 +22,4 @@ h4 {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 600;
   letter-spacing: 2px;
-  padding: 0 0 30px 10px;
 }
