@@ -48,7 +48,7 @@ header .top-logo img {
   width: 100%;
 }
 
-.top-menu li:hover a {
+.top-menu li:hover{
   background-color: var(--color13);
 }
 
@@ -265,8 +265,21 @@ article.slider {
 }
 
 article.slider .slider-box {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1vw;
+}
+
+article.slider .slider-box div:nth-of-type(1) {
+  opacity: 0.5;
+}
+article.slider .slider-box div:nth-of-type(2) {
+  opacity: 0.5;
+}
+article.slider .slider-box div:nth-of-type(4) {
+  opacity: 0.5;
+}
+article.slider .slider-box div:nth-of-type(5) {
+  opacity: 0.5;
 }
 
 .center {
@@ -519,10 +532,27 @@ section.copy p {
   z-index: 99999;
 }
 
-/***** arrows ****
-.up {
+/***** arrows *****/
+.up-box {
   position: fixed;
   bottom: 2%;
-  right: 3%;
+  right: 2%;
   z-index: 9999;
-}*/
+  border-radius: 2px;
+  background-color: var(--color4);
+  width: 40px; height: 40px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 3;
+  transition: 0.2s linear;
+}
+
+.up-box:hover {
+  background-color: var(--color13);
+}
+
+.up svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--color1);
+}
