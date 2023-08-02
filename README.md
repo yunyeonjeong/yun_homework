@@ -1,9 +1,9 @@
-
+# 과제 일지
 
 :question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question::question:
 
 날짜 | 과제 이름 | 내용
-| :---:  |      :---:     | :---: |
+| :---:  |      :---:     | :--- |
 | 230327 | font+text      | id값을 사용해보았음    |
 | 230329 | margin_padding | margin에 auto 값을 넣으면 중앙정렬이 됨     |
 | 230330 | display        | li, a 값에 hover를 적용해봄    |
